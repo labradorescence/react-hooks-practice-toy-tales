@@ -47,6 +47,18 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Bulbasaur",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1650051054-screen-shot-2022-04-15-at-3-29-46-pm-1650051019.png?crop=1.00xw:0.774xh;0.00160xw,0.223xh&resize=768:*",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "Bulbasaur",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1650051054-screen-shot-2022-04-15-at-3-29-46-pm-1650051019.png?crop=1.00xw:0.774xh;0.00160xw,0.223xh&resize=768:*",
+      "likes": 0,
+      "id": 10
     }
   ]
 }

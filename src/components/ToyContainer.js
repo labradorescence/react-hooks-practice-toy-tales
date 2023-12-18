@@ -1,9 +1,16 @@
 import React from "react";
 import ToyCard from "./ToyCard";
 
-function ToyContainer() {
+function ToyContainer( { toysArr } ) { //obj de-structuring
+
+  //console.log(toysArr) // []
+
+  const toyC = toysArr.map((eachToyObj) => {
+    return <ToyCard toy = {eachToyObj} key={eachToyObj.id}/>
+  })
+
   return (
-    <div id="toy-collection">{/* Render the collection of ToyCards */}</div>
+    <div id="toy-collection">{toyC}</div>
   );
 }
 
